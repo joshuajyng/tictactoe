@@ -1,16 +1,9 @@
-#board
-#display board
-#play game
-#check win
-    #check rows
-    #check colsas
-    #check diagonals
-#check tie
-#flip player
+#global variables
 game_ongoing = True
 winner = None
 curr_player = "X"
 
+#create tic tac toe board
 board =["1","2","3",
         "4","5","6",
         "7","8","9",]
@@ -92,6 +85,7 @@ def flip_player():
     return 
 
 def play():
+    #main game logic
     show_board()
     while game_ongoing:
         handle_turn(curr_player)
