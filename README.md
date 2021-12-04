@@ -1,2 +1,2 @@
 # tictactoe
-Simple tic tac toe game made with python
+Simple tic tac toe game in terminal made with python
